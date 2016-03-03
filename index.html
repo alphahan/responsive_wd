@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="javascript" href="/javascript.js">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#menu").click(function(){
+                $("#menu_mobile").slideToggle("200");
+            });
+        });
+
+        $(document).ready(function(){
+            $('#nav-icon1,#nav-icon2,#nav-icon3,#nav-icon4').click(function(){
+                $(this).toggleClass('open');
+            });
+        });
+    </script>
+    <title></title>
+</head>
+<body>
+<div id="navigation_cnt">
+    <div id="navigation_txt">Navigation
+
+    </div>
+    <div id="menu">
+        <div id="nav-icon4">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+</div>
+<div id="menu_mobile">
+    <ul>
+        <li>PSD Websites</li>
+        <li>UI Kits</li>
+        <li>Premium PSD files</li>
+        <li>About</li>
+        <li>Blog</li>
+    </ul>
+</div>
+<div id="banner_cnt">
+    <h1>Awesome Free PSD templates & Resources</h1>
+    <p>www.BlazRobar.com ></p>
+
+
+</div>
+<div id="mid_cnt">
+    <div id="textbox_cnt">I'm like the Robin Hood of PSD files.</div>
+    <div id="arrow_cnt">> </div>
+</div>
+<div id="pictures_cnt">
+    <div class="picture_cnt"><div id="picture_1"> > </div></div>
+    <div class="picture_cnt"><img class="picture" src="2.png"/> </div>
+    <div class="picture_cnt"><img class="picture" src="3.png"/> </div>
+</div>
+<div id="textbox2_cnt">
+    <div id="header_cnt"><h2>BlazRobar.com</h2></div>
+    <div id="text_holder">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vehicula ipsum non leo tristique eget facilisis lacus commodo. Curabitur vitae justo lorem, non ornare nibh. Pellentesque pretium, tellus ac ultrices faucibus, nibh mauris dapibus lorem, vitae viverra nisl elit sit amet libero. Nam eu blandit risus.</p>
+    <p>Phasellus imperdiet mattis nulla. Integer gravida imperdiet congue. Proin vitae pretium augue. Donec est sem, mattis et blandit ac, blandit at arcu. Donec tempus tincidunt suscipit. Suspendisse eu vulputate lacus.</p>
+    <div id="display_txt">
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vehicula ipsum non leo tristique eget facilisis lacus commodo. Curabitur vitae justo lorem, non ornare nibh. Pellentesque pretium, tellus ac ultrices faucibus, nibh mauris dapibus lorem, vitae viverra nisl elit sit amet libero. Nam eu blandit risus.
+
+        Phasellus imperdiet mattis nulla. Integer gravida imperdiet congue. Proin vitae pretium augue. Donec est sem, mattis et blandit ac, blandit at arcu. Donec tempus tincidunt suscipit. Suspendisse eu vulputate lacus.
+    </div>
+    </div>
+    </p>
+</div>
+</body>
+</html>
